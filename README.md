@@ -13,7 +13,7 @@ class Program
     }
 }
 
-class Game : SDEprogram
+class Game : GEALOSprogram
 {
     // code
 }
