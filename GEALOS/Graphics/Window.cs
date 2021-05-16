@@ -1,7 +1,7 @@
 ﻿using System;
 using SDL2;
 
-namespace SDE.Graphics
+namespace GEALOS.Graphics
 {
     class Window
     {

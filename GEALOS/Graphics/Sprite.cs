@@ -1,8 +1,8 @@
 ﻿using System;
-using SDE.Maths;
+using GEALOS.Maths;
 using SDL2;
 
-namespace SDE.Graphics
+namespace GEALOS.Graphics
 {
     class Sprite
     {

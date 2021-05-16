@@ -1,10 +1,10 @@
 ﻿using System;
 using SDL2;
-using SDE.Utils;
+using GEALOS.Utils;
 
-namespace SDE
+namespace GEALOS
 {
-    class SDEprogram
+    class GEALOSprogram
     {
         public Input input = new Input();
 
@@ -14,7 +14,7 @@ namespace SDE
 
         public virtual void update() {}
 
-        public void SDEinit()
+        public void GEALOSinit()
         {
             if (SDL.SDL_Init(SDL.SDL_INIT_VIDEO) < 0)
             {
@@ -46,10 +46,10 @@ namespace SDE
 
             running = true;
 
-            SDEprog();
+            GEALOSprog();
         }
 
-        void SDEprog()
+        void GEALOSprog()
         {
             init();
 

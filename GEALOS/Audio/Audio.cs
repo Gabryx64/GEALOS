@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SDE.Audio
+namespace GEALOS.Audio
 {
     abstract class Audio
     {

@@ -1,4 +1,4 @@
-﻿namespace SDE.Graphics
+﻿namespace GEALOS.Graphics
 {
     class Color
     {

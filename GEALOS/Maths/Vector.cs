@@ -1,4 +1,4 @@
-﻿namespace SDE.Maths
+﻿namespace GEALOS.Maths
 {
     struct Vector2i
     {

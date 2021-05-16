@@ -9,7 +9,7 @@ class Program
 {
     static void Main()
     {
-        new Game().SDEinit();
+        new Game().GEALOSinit();
     }
 }
 

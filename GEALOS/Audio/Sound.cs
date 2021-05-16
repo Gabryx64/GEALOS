@@ -1,7 +1,7 @@
 ﻿using System;
 using SDL2;
 
-namespace SDE.Audio
+namespace GEALOS.Audio
 {
     class Sound : Audio
     {

@@ -1,6 +1,6 @@
 ﻿using SDL2;
 
-namespace SDE.Utils
+namespace GEALOS.Utils
 {
     class Input
     {
