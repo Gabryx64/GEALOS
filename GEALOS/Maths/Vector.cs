@@ -1,4 +1,6 @@
-﻿namespace GEALOS.Maths
+﻿using System.Collections.Generic;
+
+namespace GEALOS.Maths
 {
     struct Vector2i
     {

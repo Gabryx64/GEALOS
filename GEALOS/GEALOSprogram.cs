@@ -7,6 +7,7 @@ namespace GEALOS
     class GEALOSprogram
     {
         public Input input = new Input();
+        public Time time = new Time();
 
         public bool running;
 
@@ -55,6 +56,8 @@ namespace GEALOS
 
             while (running)
             {
+                time.update();
+
                 while (SDL.SDL_PollEvent(out SDL.SDL_Event e) == 1)
                 {
                     switch (e.type)
